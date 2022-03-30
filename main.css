@@ -167,6 +167,15 @@ img.profile-pic {
 	height: 23%;
 }
 
+.bubble {
+  background: linear-gradient(#fff, #fff), url("https://media.giphy.com/media/jUwpNzg9IcyrK/giphy.gif");
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  padding: 20px;
+}
+
 .button {
 	background-color: #219653;
 	height: 48px;
