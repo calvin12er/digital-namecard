@@ -167,47 +167,28 @@ img.profile-pic {
 	height: 23%;
 }
 
-.bubble {
-  background: linear-gradient(#fff, #fff), url("https://media.giphy.com/media/jUwpNzg9IcyrK/giphy.gif");
-  border-radius: 50%;
-  height: auto;
-  width: auto;
-  max-width: 500px;
-  padding: 20px;
-}
 
 .button {
-	background-color: #219653;
-	height: 48px;
-	padding-left: 24px
-	padding-right: 24px;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 48px;
-	font-family: 'Muli', sans-serif;
-	color: white;
-	font-weight: 300;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
-@keyframes background {
-  from { background-position: 0 0; }
-  to { background-position: 100% 0; }
-}
-
-body {
-  animation: background 10s linear infinite;
-}
 
 
-button:hover {
-    animation: animateButton 0.5s;
-}
 
-@keyframes animateButton {
-    from {background-color: red;}
-    to {background-color: yellow;}
-}
 
 @media screen and (max-width: 600px) {
   img.profile-pic {
