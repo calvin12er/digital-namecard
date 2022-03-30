@@ -180,6 +180,16 @@ img.profile-pic {
 	font-weight: 300;
 }
 
+
+button:hover {
+    animation: animateButton 0.5s;
+}
+
+@keyframes animateButton {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
 @media screen and (max-width: 600px) {
   img.profile-pic {
     height: 60%;
