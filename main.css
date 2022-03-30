@@ -181,6 +181,16 @@ img.profile-pic {
 }
 
 
+@keyframes background {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
+
+body {
+  animation: background 10s linear infinite;
+}
+
+
 button:hover {
     animation: animateButton 0.5s;
 }
